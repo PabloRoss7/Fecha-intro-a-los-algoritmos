@@ -38,6 +38,9 @@ public class Fecha
         this.mes = mes;
     }
     
+    public String toString(){
+        return this.dia + "/" + this.mes + "/" + this.anho;
+    }
     
     public void setAnho(int anho){
         this.anho = anho;
