@@ -30,6 +30,19 @@ public class Fecha
         return anho;
     }
     
+    public void setDia(int dia){
+        this.dia = dia;
+    }
+    
+    public void setMes(int mes){
+        this.mes = mes;
+    }
+    
+    
+    public void setAnho(int anho){
+        this.anho = anho;
+    }
+    
     private boolean fechaValida(int dia, int mes, int anho){
         return true;
     }
